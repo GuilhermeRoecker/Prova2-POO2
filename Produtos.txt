@@ -1,0 +1,5 @@
+1,Televisao,2000.0,5
+2,Notebook,3500.25,10
+3,Smartphone,1500.15,25
+4,Geladeira,999.99,8
+5,Microondas,400.0,20
