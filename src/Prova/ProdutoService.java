@@ -17,7 +17,7 @@ public class ProdutoService {
     public static void leArquivoEInsereProduto() {
         try {
             
-            FileReader fr = new FileReader("Produtos.txt");
+            FileReader fr = new FileReader("produtos.txt");
             BufferedReader br = new BufferedReader(fr);
             String linha;
             while ((linha = br.readLine()) != null) {
@@ -196,7 +196,7 @@ public class ProdutoService {
     public static String GravaArquivo(){
         try {
 
-            FileWriter fw = new FileWriter("Produtos.txt", false);
+            FileWriter fw = new FileWriter("produtos.txt", false);
             BufferedWriter bw = new BufferedWriter(fw);
 
             Connection conn = Conexao.conectaMySql();
